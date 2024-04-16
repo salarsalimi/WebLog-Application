@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             header("Location: user_panel.php");
             exit;
         } else {
-            // Invalid username or password, display error message
+            // If Invalid username or password, display error message
             $error_message = "Invalid username or password.";
         }
     } else {

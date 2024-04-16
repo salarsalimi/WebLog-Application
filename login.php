@@ -22,7 +22,7 @@
 
 
 <?php
-// Check if form is submitted
+// Check if form is submitted ?
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Check if username and password are set and not empty
     if (isset($_POST["username"]) && isset($_POST["password"]) && !empty($_POST["username"]) && !empty($_POST["password"])) {
